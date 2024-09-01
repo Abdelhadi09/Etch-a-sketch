@@ -1,0 +1,21 @@
+body{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(192, 117, 19);
+}
+#container{
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square{
+  transition: background-color 0.1s ease-in-out;
+}
+.square:hover{
+  background-color: black;
+}
